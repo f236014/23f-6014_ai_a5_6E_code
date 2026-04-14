@@ -1,6 +1,6 @@
-# 🧩 Sudoku Solver using CSP (AC-3 + Backtracking)
+#  Sudoku Solver using CSP (AC-3 + Backtracking)
 
-## 📌 Overview
+##  Overview
 This project is a **Sudoku Solver** implemented using **Constraint Satisfaction Problem (CSP)** techniques.  
 It combines:
 
@@ -12,7 +12,7 @@ The solver reads Sudoku puzzles from text files and outputs the solved board alo
 
 ---
 
-## ⚙️ Features
+##  Features
 
 - Solves Easy, Medium, Hard, and Very Hard Sudoku puzzles
 - Uses **forward checking + AC-3 propagation**
@@ -24,7 +24,7 @@ The solver reads Sudoku puzzles from text files and outputs the solved board alo
 
 ---
 
-## 🧠 Algorithms Used
+##  Algorithms Used
 
 ### 1. AC-3 (Arc Consistency)
 Ensures that every value in a cell has a valid support in its connected cells (row, column, or 3×3 box).  
@@ -38,7 +38,7 @@ Selects the variable (cell) with the **fewest possible values** to reduce branch
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 .
 ├── sudoku_solver.py # Main solver code
 ├── easy.txt
@@ -49,7 +49,7 @@ Selects the variable (cell) with the **fewest possible values** to reduce branch
 
 ---
 
-## 📥 Input Format
+##  Input Format
 
 Each Sudoku puzzle is stored in a `.txt` file:
 
@@ -70,7 +70,7 @@ Example:
 
 ---
 
-## ▶️ How to Run
+##  How to Run
 
 ### 1. Install Python
 Make sure Python 3 is installed.
